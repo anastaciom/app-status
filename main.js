@@ -1,6 +1,6 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
-const { totalmem, freemem, cpus, uptime, platform, type, userInfo } = require('os');
+const { totalmem, freemem, cpus, uptime, platform, type, userInfo, arch } = require('os');
 
 
 const createWindow = () => {
@@ -27,21 +27,23 @@ const createWindow = () => {
             const activity = parseInt(uptime() / 60 / 60)
 
             const infoPC = {
-                cpuName: cpus()[0].model,
-                systemActivity: `${activity} hrs`,
+                CPUName: cpus()[0].model,
+                CPUSpeed: cpus()[0].speed,
+                CPUArch: arch(),
+                systemActivity: activity,
                 platform: platform(),
                 system: type(),
                 userName: userInfo().username,
                 memoryStats: {
-                    free: `${mem} MB`,
-                    total: `${total} MB`,
-                    usage: `${porcents} %`
+                    free: mem,
+                    total: total,
+                    usage: porcents
                 }
             }
             win.webContents.send('cpus_data', infoPC)
         }, 1000);
 
-
+       
 
     })
 
