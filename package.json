@@ -1,0 +1,14 @@
+{
+  "name": "status-pc-panel",
+  "version": "1.0.0",
+  "description": "Desktop application made with Electron JS only, to see the status of some PC components",
+  "main": "main.js",
+  "scripts": {
+      "start": "electron ."
+  },
+  "author": "Anastacio Menezes || github: anastaciom",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^16.0.6"
+  }
+}
