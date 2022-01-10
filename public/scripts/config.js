@@ -24,7 +24,7 @@ ipcRenderer.on('cpus_data', (e, value) => {
     memUsage.innerHTML = `Memory usage: <span class="colorInfo">${value.memoryStats.usage}% </span>`
     system.innerHTML = `System: <span class="colorInfo"> ${value.system} </span>`
     systemPlatform.innerHTML = `<span class="colorInfo">${value.platform}</span>`
-    systemActivity.innerHTML = `System activity in hours: <span class="colorInfo">${value.systemActivity}h </span>`
+    systemActivity.innerHTML = `System activity: <span class="colorInfo">${value.systemActivity}</span>`
 
 })
 

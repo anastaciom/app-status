@@ -4,11 +4,21 @@
   "description": "Desktop application made with Electron JS only, to see the status of some PC components",
   "main": "main.js",
   "scripts": {
-      "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "author": "Anastacio Menezes || github: anastaciom",
   "license": "MIT",
+  "build": {
+    "appId": ".com.pcstatus.app",
+    "productName": "PC status",
+    "win":{
+      "icon" : "./public/assets/iconApp.png"
+    }
+  },
   "devDependencies": {
-    "electron": "^16.0.6"
+    "electron": "^16.0.6",
+    "electron-builder": "^22.14.5"
   }
 }
