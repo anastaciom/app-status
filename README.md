@@ -44,7 +44,7 @@
 
 ---
 
-- ## _Pode acontecer do **Windows Defender** bloquear a instalação por conta do arquivo ser **.exe**, basta clicar em **"Executar assim mesmo".** que será feita a instalação normalmente_
+- ## _Pode acontecer do **Windows Defender** bloquear a instalação por conta do arquivo ser **".exe"**, basta clicar em **"Executar assim mesmo".** que será feita a instalação normalmente_
 
   ![](./assetsReadme/imgwindows.png)
 
