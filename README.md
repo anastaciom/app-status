@@ -1,50 +1,50 @@
-# App-status
+# app-status
 
-## O aplicativo feito com ElectronJs, consiste em monitorar e mostrar alguns dados do sistema como o uso de memória , atividade do sistema (em horas) e algumas informações da CPU.
+## The application made with ElectronJs, consists of monitoring and showing some system data like memory usage, system activity (in hours) and some CPU information.
 
 ---
 
-## APP funcionando:
+## APP working:
 
 ![](./assetsReadme/statusApp.gif)
 
-# Se caso queira testar na sua máquina:
+# If you want to test on your machine:
 
-## No terminal da sua máquina copie o codigo abaixo:
+## In your machine's terminal, copy the code below:
 
     git clone https://github.com/anastaciom/app-status.git
 
 ---
 
-## Entre na pasta do projeto :
+## Enter the project folder:
 
     cd app-status
 
 ---
 
-## Dentro da pasta **"app-status"**, instale todas as dependencias, executando :
+## Inside the **"app-status"** folder, install all dependencies by running:
 
         npm install
 
 ---
 
-## Agora vamos fazer o build do app, então execute :
+## Now let's build the app, then run:
 
         npm run dist
 
-## Pronto, agora vá dentro da pasta **"dist"** do seu projeto e execute o instalador, chamado **"PC status Setup 1.0.0.exe"**
+## Done, now enter the **"dist"** folder of your project and run the installer, called **"PC status Setup 1.0.0.exe"**
 
 ---
 
 <br /><br /><br /><br />
 
-# Observações Importante:
+# Important notes:
 
-- ## _O App foi testado apenas em máquinas com sistema operacional Windows, pode ser que não funcione em outros sistemas operacionais. :/_
+- ## _The application has only been tested on Windows OS machines, it may not work on other OSes. :/_
 
 ---
 
-- ## _Pode acontecer do **Windows Defender** bloquear a instalação por conta do arquivo ser **".exe"**, basta clicar em **"Executar assim mesmo".** que será feita a instalação normalmente_
+- ## _It may happen that **Windows Defender** blocks the installation because the file is **.exe"**, just click on **"Run anyway".** and the installation will be done normally_
 
   ![](./assetsReadme/imgwindows.png)
 
